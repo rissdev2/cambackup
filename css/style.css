@@ -1,0 +1,1781 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&family=Red+Hat+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #4A2424 17%, #202020 46%);
+    overflow-x: hidden;
+
+    background-repeat: no-repeat;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+/************ Navbar Css Start  *************/
+.navbar-nav .nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.11em;
+    text-transform: capitalize;
+    padding: 0px 50px !important;
+    color: #FFFFFF;
+}
+.fa{
+    color:#fff;
+}
+.nav-btn1 {
+
+    background: #0E74A5;
+    border-radius: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    color: #FFFFFF;
+
+}
+
+.nav-btn1:hover,
+.nav-btn2:hover {
+    color: #FFFFFF;
+}
+
+.nav-btn2 {
+
+    border: 3px solid #0E74A5;
+    border-radius: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: capitalize;
+    padding: 7px 35px;
+    color: #FFFFFF;
+    margin-left: 10px
+}
+
+/************ Navbar Css end  *************/
+
+/************ Hero Section  Css start  *************/
+.hro-head-txt {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 169%;
+    letter-spacing: 0.11em;
+
+    color: #FFFFFF;
+}
+
+.hro-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0.11em;
+
+    color: #FFFFFF;
+}
+
+.hrd-wre-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.bdr {
+    border-right: 3px dotted #ffffff;
+}
+
+/************ Hero Section  Css end  *************/
+
+.bg-slant {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    border-top-right-radius: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 130px;
+
+}
+
+.sim-txt {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 116px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.sim-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #0E74A5;
+}
+
+.about-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    text-transform: capitalize;
+
+    color: #E6E6E6;
+
+}
+
+/* ********** Map Section css start *********** */
+.map-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 169px;
+    line-height: 254px;
+    letter-spacing: 0.11em;
+
+    color: #FFFFFF;
+
+}
+
+.map-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+
+}
+
+/* ********** Map Section css end *********** */
+
+
+/* ********** See better Section css start *********** */
+
+.see-better-section {
+
+    background-image: url("/img/bg-map.png");
+    padding: 0px 0px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+
+}
+
+.bg-slant2 {
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    border-top-left-radius: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 130px;
+
+}
+
+
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .tabs__label {
+    padding-right: 20px ;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #dddddd;
+    margin-right: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 1;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+  }
+  
+  .tabs__radio:checked + .tabs__label {
+    color: #fff;
+    border-bottom: 5px solid #0E74A5;
+  }
+  
+  .tabs__radio:checked + .tabs__label + .tabs__content {
+    display: initial;
+  }
+
+  
+
+
+.see-btr-txt {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: capitalize;
+
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.see-btr-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.bottom-line {
+    background: #0E74A5;
+    border-radius: 23px;
+    height: 5px;
+    width: 100%;
+}
+
+.bottom-line1 {
+    background: #ffffff;
+    border-radius: 23px;
+    height: 5px;
+    width: 90%;
+}
+
+.see-btr-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: capitalize;
+
+    color: #CFCCCC;
+
+}
+
+.see-btr-txt3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+/* ********** See better Section css end *********** */
+/* ********** Partner Section css start *********** */
+
+.partner-section {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+
+}
+
+.part-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 98px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+/* ********** Partner Section css end *********** */
+/* ********** Manage Section css start *********** */
+.manage-section {
+    background-image: url("/img/manag-bg.png");
+    padding-bottom: 100px;
+}
+
+.manage-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 73px;
+    letter-spacing: 0.11rem;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.manage-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+/* ********** Manage Section css end *********** */
+/* ********** Story Section css start *********** */
+
+
+.storty-section {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    border-top-right-radius: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    margin-top: 100px;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    box-shadow: none;
+}
+
+.slide-crd-head {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 147.3%;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.slide-crd-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 50px;
+    padding-bottom: 150px;
+    text-transform: capitalize;
+
+    color: #DFDFDF;
+
+}
+
+.swiper-pagination-bullet {
+    color: #D9D9D9;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #0E74A5 !important;
+}
+
+.swiper-pagination-bullet {
+
+    display: inline-block;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: #ffffff;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .9) !important;
+}
+
+/* ********** Story Section css end *********** */
+
+/* ********** Review Section css start *********** */
+.review-section {
+
+    padding: 150px 0px;
+}
+
+.review-head {
+
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.review-txt1 {
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.review-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: #E2DFDF;
+}
+
+/* ********** Review Section css end *********** */
+
+/* ********** Security Section css start *********** */
+
+.security-section {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    padding: 20px 0px;
+    margin-bottom: 250px;
+}
+
+.security-head1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 79px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.security-head2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    /* identical to box height, or 114% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.security-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+/* ********** Security Section css end *********** */
+/* ********** Footer Section css start *********** */
+
+
+.footer {
+
+
+    padding-top: 60px;
+    padding-bottom: 0px;
+    background: #232323;
+    margin-bottom: 0px;
+}
+
+.footer h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height, or 180% */
+
+
+    color: #FFFFFF;
+
+}
+
+.footer a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+.follow-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height, or 180% */
+
+
+    color: #FFFFFF;
+}
+
+.footer .fa {
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.cpy-rght-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+
+
+    color: #FFFFFF;
+
+}
+
+/* ********** Footer Section css end *********** */
+
+
+
+/* *********** Pricing page csss start ********* */
+/* *********** Pricing section csss start ********* */
+
+.pric-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 85px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 180px;
+    color: #FFFFFF;
+
+}
+
+
+
+.tab-slider--nav {
+    width: 100%;
+ 
+    margin-bottom: 20px;
+    
+
+ 
+  }
+  
+  .tab-slider--tabs {
+ 
+   width: 30%;
+    list-style: none;
+   margin-bottom: 10px;
+   padding-top: 20px ;
+  
+   padding-bottom: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 100px auto;
+
+    background: linear-gradient(90.26deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 99.94%);
+    backdrop-filter: blur(17px);    height: 35px;
+    -webkit-user-select: none;
+      -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+  }
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #345F90;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 250ms ease-in-out;
+    border-radius: 50px;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  
+  .tab-slider--trigger {
+
+
+
+    
+font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 400;
+    color: #fff;
+    width: 45%;
+    text-transform: capitalize;
+  text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #fff;
+  }
+  
+  .tab-slider--body {
+    margin-bottom: 20px;
+  }
+
+
+.price-crd {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    border-radius: 29px;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.crd-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 62px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.corner-item {
+    background: #0E74A5;
+    border-radius: 0px 29px;
+}
+
+.crd-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.crd-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #AFAFAF;
+}
+
+.crd-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+
+    color: #AFAFAF;
+
+}
+
+.crd-txt3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.crd-btn1 {
+    background: #0E74A5;
+    border-radius: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.crd-txt4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.corner-item2 {
+    background: #9177D9;
+    border-radius: 0px 29px;
+}
+
+.corner-item3 {
+    background: #FF9900;
+    border-radius: 0px 29px;
+}
+
+.crd-btn2 {
+    background: #9177D9;
+    border-radius: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.crd-btn3 {
+    background: #FF9900;
+    border-radius: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.pric-txt1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+
+color: #0E74A5;
+}
+.pric-txt2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+/* *********** Pricing section csss end ********* */
+/* *********** Features section csss start ********* */
+
+.feat-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.features-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 227.3%;
+    text-transform: capitalize;
+
+    color: #CDCCCC;
+}
+
+.bg-slant-features {
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(17px);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    border-top-right-radius: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 130px;
+
+}
+
+/* *********** Features section csss end ********* */
+/* *********** Payment section csss start ********* */
+.payment-section {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.pay-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 64px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.pay-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 64px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+/* *********** Payment section csss end ********* */
+/* *********** Cloud Types section csss start ********* */
+
+
+.cloud-types-section {
+
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.type-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    /* or 222% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #BCB7B7;
+}
+
+/* *********** Cloud Types section csss end ********* */
+
+/* *********** Pricing page csss end ********* */
+
+/* *********** Features page csss start ********* */
+
+
+.feature-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 52px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.pad{
+        padding-right: 0px !important; 
+    padding-left: 0px!important;
+}
+
+.feature-txt1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: 0.065em;
+    text-transform: capitalize;
+
+    color: #0E74A5;
+}
+
+.feature-txt2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 63px;
+    /* or 191% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.feature-txt3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 60px;
+    /* or 316% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.sec-txt1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    /* identical to box height, or 69% */
+
+    letter-spacing: 0.065em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.sec-txt2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 46px;
+    /* or 258% */
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.privacy-section {
+    background-image: url("/img/feature-img4.png");
+    padding: 50px 0px;
+    margin-top: 200px;
+}
+
+.your-cam-txt {
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height, or 412% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+/* *********** Features page csss end ********* */
+
+/* *********** Why Cambackup page csss start ********* */
+
+
+.why-cam-head {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin: 200px 0px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.why-cam-txt1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+   
+
+    text-transform: capitalize;
+
+    color: #0E74A5;
+
+}
+
+.why-cam-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    /* or 289% */
+
+    text-transform: capitalize;
+
+    color: #DFDADA;
+
+}
+
+.why-cam-txt3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 182.3%;
+    /* or 58px */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.horizontal-line {
+    background: #D9D9D9;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.why-cam-txt4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 180.3%;
+    /* or 49px */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #D7D7D7;
+
+}
+
+.partners-section {
+    background: linear-gradient(90.26deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 99.94%);
+    backdrop-filter: blur(17px);
+    padding: 50px 0px;
+}
+
+.why-cam-txt5 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+  
+    /* or 333% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.video-div {
+    margin-top: 150;
+    border-radius: 13px;
+    height: 653px;
+    width: 100%;
+    overflow: hidden;
+    filter:opacity(60%);
+    /* transform: translateX(10%) translateY(40%); */
+}
+
+.values-head {
+    background: linear-gradient(90.26deg, rgba(255, 255, 255, 0.1) -0.41%, rgba(255, 255, 255, 0.04) 99.94%);
+    backdrop-filter: blur(17px);
+}
+
+.values-txt {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.value-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.value-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 40px;
+    /* or 211% */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+/* *********** Why Cambackup page csss end ********* */
+
+/* *********** signup page css start ********* */
+
+.signup-section {
+
+    background-image: url("/img/signup-bg.png");
+    background-repeat: no-repeat;
+}
+
+.signup-form-bg {
+    background: rgba(255, 255, 255, 0.77);
+    border-radius: 8px;
+}
+
+.signup-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 163.5%;
+
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+.signup-txt2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 163.5%;
+    /* identical to box height, or 31px */
+
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.54);
+
+}
+
+
+
+.form-control {
+    background: rgba(235, 235, 235, 0.9);
+    border-radius: 12px;
+    line-height: 163.5%;
+    color: rgba(0, 0, 0, 0.57);
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+}
+
+.form-control:focus {
+    background: rgba(235, 235, 235, 0.9);
+    box-shadow: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: rgba(0, 0, 0, 0.57);
+}
+
+.form-control::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 163.5%;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+.register-btn {
+    background: #0E74A5;
+    border-radius: 26px;
+    margin: 40px 90px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.row-pad {
+    margin: 0px -22px;
+}
+
+hr {
+    padding: 0px;
+}
+
+#or {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.social-btn {
+    background: rgba(235, 235, 235, 0.9);
+    border-radius: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 5px;
+    margin: 30px 90px;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.57);
+}
+
+/* *********** signup page css end ********* */
+/* *********** login page css start ********* */
+
+.login-section {
+
+    background-image: url("/img/login-bg.png");
+    background-repeat: no-repeat;
+}
+
+.reg-btn {
+    border: 1px solid #000000;
+    border-radius: 29px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #0E74A5;
+}
+
+.form-check-input {
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: #000;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+}
+
+.form-check-input:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: 0 0 0 0rem #000;
+}
+
+.form-check-label {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.57);
+
+}
+
+.forgot-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.57);
+}
+
+
+/* *********** login page css end ********* */
+/* *********** forgot page css start ********* */
+
+.forgot-section {
+
+    background-image: url("/img/reset-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.forgot-txt1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.74);
+
+}
+
+/* *********** forgot page css end ********* */
+@media screen and (max-width: 900px){
+    .bg-slant{
+        clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .bg-slant2{
+        clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
+
+    }
+    .feat-head{
+        font-size: 20px;
+    }
+    .feature-head{
+        margin-bottom: 10px;
+        
+
+    }
+    .why-cam-head {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .tab-slider--tabs{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+   
+    }
+    .tab-slider--trigger{
+        font-size: 16px;
+        width: 49%;
+    }
+    .slide-crd-txt{
+        margin-bottom:10px;
+        padding-bottom: 40px;
+    }
+    .bg-slant-features{
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+
+
+
+@media (min-device-width: 992px) and (max-device-width: 1430px) {
+    .navbar-nav .nav-link {
+      font-size: 11px;
+    }
+  }
+  @media (min-device-width: 1200px) and (max-device-width: 1330px) {
+    .nav-btn2 {
+      padding: 10px 20px;
+    }
+  }
+  @media (min-device-width: 1400px) and (max-device-width: 1500px) {
+    .nav-btn2 {
+      padding: 10px 22px !important;
+    }
+  }
+  
+  @media (min-device-width: 768px) and (max-device-width: 1080px) {
+  }
+  
+
+@media screen and (max-width: 767px) {
+
+    .navbar-nav .nav-link {
+
+        font-size: 20px;
+      }
+      .foot-img{
+        width: 70%;
+        align-content: center;
+        margin: 0px auto;
+      }
+      .navbar-brnd a img{
+        width: 60%;
+        height: auto;
+       }
+       .tab-slider--tabs{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+   
+    }
+  .nav-item{
+        padding: 5px   ;
+    }
+    .hro-txt{
+        line-height: 40px;
+    }
+    .about-txt{
+        line-height: 40px;
+    }
+    .register-btn{
+        margin: 20px 20px;
+    }
+    .social-btn{
+        margin: 20px 20px;
+    }
+    .why-cam-head{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .why-cam-txt1{
+        font-size: 30px;
+    
+    }
+    .feat-head{
+        font-size: 30px;
+    }
+    .feature-txt1{
+        font-size: 30px;
+    }
+    .feature-head{
+        margin-bottom: 10px;
+        margin-top: 30px;
+        
+
+    }
+    .feature-txt2{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .feature-txt3{
+        line-height: 45px;
+    }
+    .your-cam-txt{
+        font-size: 12px;
+    }
+    .pric-head{
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 50px;
+    }
+    .nav-tabs {
+
+        width: 100%;
+    }
+    .bg-slant-features{
+        clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .bg-slant {
+        clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+.storty-section {
+  
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  
+    margin-top: 100px;
+}
+    .pay-txt1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .pay-txt2{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .map-txt1{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .map-txt2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .review-head{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hro-head-txt{
+        font-size: 35px;
+    }
+    .slide-crd-head{
+        font-size: 25px;
+    }
+    .sim-txt{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .see-btr-txt {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .see-btr-txt2{
+        line-height: 45px;
+    }
+    .bg-slant2{
+        clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
+
+    }
+    .security-head1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .see-btr-txt3{
+        font-size: 15px;
+    }
+    .part-head{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .manage-head{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .manage-txt{
+        line-height: 40px;
+    }
+    .slide-crd-head{
+        font-size: 25px;
+    }
+  
+    .slide-crd-txt{
+        margin-bottom:10px;
+        padding-bottom: 40px;
+    }
+   
+    .why-cam-txt3{
+        line-height: 50px;
+    }
+    .tab-slider--trigger{
+        font-size: 16px;
+        width: 47%;
+    }
+    .crd-head{
+        font-size: 20px;
+    }
+    .bdr {
+        border-right: 0px dotted #ffffff;
+    }
+    .values-txt{
+        font-size: 50px;
+    }
+    .value-txt1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .video-div {
+        height: 400px;
+        width: 100%;
+      
+    }
+    .register-btn {
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* Container media querry Start  */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1390px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1490px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1450px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1750px;
+    }
+}
+
+/* Container media querry End  */
+
