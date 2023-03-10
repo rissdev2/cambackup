@@ -1565,8 +1565,11 @@ hr {
         padding-top: 20px;
         padding-bottom: 50px;
         text-align: center;
-        height: 77px;
+      
    
+    }
+    .tab-slider--tabs:after{
+        background-image: url(../img/after.png) !important;
     }
   .nav-item{
         padding: 5px   ;
