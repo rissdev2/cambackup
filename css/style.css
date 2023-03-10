@@ -665,6 +665,7 @@ a:hover {
       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; 
+            
   }
   .tab-slider--tabs:after {
     content: "";
@@ -1564,6 +1565,7 @@ hr {
         padding-top: 20px;
         padding-bottom: 50px;
         text-align: center;
+        height: auto;
    
     }
   .nav-item{
